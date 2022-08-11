@@ -1,0 +1,25 @@
+{
+  "name": "dev_job",
+  "version": "1.0.0",
+  "description": "Um app para encontrar vagas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "jobs"
+  ],
+  "author": "Matheus Amorim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
